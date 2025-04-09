@@ -1,0 +1,34 @@
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+
+# Config files
+*.config.js
+*.config.mjs
+*.config.ts
+next.config.*
+postcss.config.*
+eslint.config.*
+tailwind.config.*
+
+# Package files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Other files
+.git
+.DS_Store
+*.log
+.vercel
+.env*
+tsconfig.json
+pnpm-workspace.yaml
+Dockerfile
